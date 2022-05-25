@@ -1,8 +1,8 @@
-# Beefy Finance (\$BIFI)
+# Bonfire Finance (\$BFIRE)
 
 ## Overview
 
-Official frontend repo of [beefy.finance](https://app.beefy.finance). Multichain yield farming optimizer.
+Official frontend repo of [Bonfire.finance](https://app.Bonfire.finance). Multichain yield farming optimizer.
 
 ## Env
 
@@ -22,7 +22,7 @@ If any error is noted during validation, fix before starting the server, which w
 
 ## Contribute
 
-Beefy.Finance exists thanks to its contributors. There are many ways you can participate and help build high quality software. Check out the [contribution guide](CONTRIBUTING.md)!
+Bonfire.Finance exists thanks to its contributors. There are many ways you can participate and help build high quality software. Check out the [contribution guide](CONTRIBUTING.md)!
 
 ## License
 
