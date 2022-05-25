@@ -13,9 +13,9 @@ const Footer = () => {
   return (
     <div className={classes.root}>
       <div className={classes.column}>
-        <div className={classes.title}>beefy.finance</div>
+        <div className={classes.title}>bonfire.finance</div>
         <a
-          href="https://docs.beefy.finance"
+          href="https://docs.bonfire.finance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
@@ -25,27 +25,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://blog.beefy.finance/articles"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-file-alt ${classes.linkIcon}`} />
-          <span>{t('blog')}</span>
-        </a>
-
-        <a
-          href="https://forum.beefy.finance/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes.link}
-        >
-          <i className={`fas fa-comments ${classes.linkIcon}`} />
-          <span>{t('forum')}</span>
-        </a>
-
-        <a
-          href="https://github.com/beefyfinance"
+          href="https://github.com/bonfirefinance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
@@ -58,7 +38,7 @@ const Footer = () => {
       <div className={classes.column}>
         <div className={classes.title}>{t('products')}</div>
         <a
-          href="https://gov.beefy.finance"
+          href="https://gov.bonfire.finance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
@@ -68,7 +48,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://vote.beefy.finance"
+          href="https://vote.bonfire.finance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
@@ -78,7 +58,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://app.beefy.finance"
+          href="https://app.bonfire.finance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
@@ -91,7 +71,7 @@ const Footer = () => {
       <div className={classes.column}>
         <div className={classes.title}>{t('socials')}</div>
         <a
-          href="https://twitter.com/beefyfinance"
+          href="https://twitter.com/bonfirefinance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
@@ -101,7 +81,7 @@ const Footer = () => {
           <span>twitter</span>
         </a>
         <a
-          href="https://t.me/beefyfinance"
+          href="https://t.me/bonfirefinance"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}
@@ -111,7 +91,7 @@ const Footer = () => {
           <span>telegram</span>
         </a>
         <a
-          href="https://discord.gg/yq8wfHd"
+          href="https://discord.gg/derse"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.link}

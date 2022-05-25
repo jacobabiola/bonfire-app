@@ -23,7 +23,7 @@ const V2Banner = () => {
         className={classes.btn}
         target="_blank"
         rel="noopener noreferrer"
-        href="https://beta.beefy.finance/#/"
+        href="https://beta.bonfire.finance/#/"
       >
         {t('V2Banner-Button')}
       </a>

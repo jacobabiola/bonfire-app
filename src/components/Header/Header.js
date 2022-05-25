@@ -49,18 +49,18 @@ const Header = ({ links, isNightMode, setNightMode }) => {
           <Button className={classes.title}>
             <Hidden xsDown>
               <img
-                alt="BIFI"
-                src={require(`images/BIFI-logo.svg`)}
-                height={'40px'}
+                alt="BFIRE"
+                src={require(`images/bonfire.svg`)}
+                height={'45px'}
                 className={classes.logo}
               />
-              beefy.finance
+              bonfire.finance
             </Hidden>
             <Hidden smUp>
               <img
-                alt="BIFI"
-                src={require(`images/BIFI-logo.svg`)}
-                height={'35px'}
+                alt="BFIRE"
+                src={require(`images/bonfire.svg`)}
+                height={'45px'}
                 className={classes.logo}
               />
             </Hidden>
@@ -69,19 +69,12 @@ const Header = ({ links, isNightMode, setNightMode }) => {
 
         <div className={classes.middleNav}>
           <Hidden smDown>
-            {renderLink('vote', t('vote'), 'vote-yea', classes)}
-            {renderLink('dashboard', t('stats'), 'chart-bar', classes)}
+            {/*{renderLink('vote', t('vote'), 'vote-yea', classes)}*/}
+            {/*{renderLink('dashboard', t('stats'), 'chart-bar', classes)}*/}
             {renderLink('docs', t('docs'), 'book', classes)}
             {renderLink('blog', t('blog'), 'file-alt', classes)}
-            <InsureLink t={t} classes={classes} />
+            {/* <InsureLink t={t} classes={classes} />*/}
           </Hidden>
-          <Transak style={{ marginLeft: '5px', marginRight: '5px' }} className={classes.link}>
-            <i className={`fas fa-credit-card ${classes.icon}`} />
-            {t('buy')}
-          </Transak>
-          <Link className={classes.btnBoost} to={`/${chain}/stake`}>
-            <img alt="Boost" src={require('images/stake/boost.svg')} />
-          </Link>
         </div>
 
         <Hidden smDown implementation="css">
@@ -186,7 +179,7 @@ const InsureLink = memo(function InsureLink({ t, classes }) {
             ))}
           </div>
           <CustomButton
-            href="https://app.insurace.io/Insurance/Cart?id=110&chain=BSC&referrer=95244279533280151623141934507761661103282646845"
+            href="https://app.insurace.io/Insurance/Cart?id=110&chain=BSC&referrer=55555"
             target="_blank"
             className={classes.modalButton}
           >
@@ -218,7 +211,7 @@ const LinkSidebar = ({ name, label, icon, classes }) => (
 );
 
 const getLinkUrl = name => {
-  return name === 'buy' ? getNetworkBuyUrl() : `https://${name}.beefy.finance`;
+  return name === 'buy' ? getNetworkBuyUrl() : `https://${name}.bonfire.finance`;
 };
 
 export default Header;
